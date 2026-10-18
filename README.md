@@ -1,6 +1,6 @@
 # Manual Software Testing Portfolio – ALT Zone
 
-This portfolio demonstrates my practical experience in **manual software testing, test case design, regression testing, bug investigation, and test coordination**.
+This portfolio demonstrates my practical experience in **manual software testing, test case design, regression testing, bug reporting, and test coordination**.
 
 The examples are based on real testing activities from **ALT Zone**, a multiplayer mobile game developed by Psyche's Royale Gaming ry.
 
@@ -133,6 +133,59 @@ This process supports repeatable testing and provides visibility into testing pr
 
 A failed test does not automatically indicate that the entire feature is unusable. It records a specific test outcome requiring investigation or follow-up.
 
+## Real Bug Report Examples
+
+The following examples are based on real defects I reported during ALT Zone development. Each example includes a link to the original GitHub issue.
+
+### [Bug #1462 – UI Popup Overlaps with Chat](ALT_Zone_Bug_Report_1462.md)
+
+A user interface layout issue where a customization popup was partially covered by the chat window.
+
+This report demonstrates:
+
+- Identifying and reproducing a UI defect.
+- Documenting steps to reproduce the problem.
+- Describing expected and actual behavior.
+- Communicating findings to developers.
+
+The developer documented a fix and referenced a commit in the original issue.
+
+**Original report:** [ALT Zone Issue #1462](https://github.com/Alt-Org/Altzone/issues/1462)
+
+### [Bug #1507 – Character Selection Causes Battle to Freeze](ALT_Zone_Bug_Report_1507.md)
+
+A Battle functionality issue where selecting specific characters caused the game to become stuck during the Battle startup flow.
+
+This report demonstrates:
+
+- Identifying a gameplay-blocking defect.
+- Documenting the affected character selections.
+- Reporting unexpected Battle behavior.
+- Supporting investigation of a functional issue.
+
+The issue was closed as completed. Detailed fix implementation and personal retesting are not documented in the original issue.
+
+**Original report:** [ALT Zone Issue #1507](https://github.com/Alt-Org/Altzone/issues/1507)
+
+### [Bug #1309 – Missing Clan Language Icons](ALT_Zone_Bug_Report_1309.md)
+
+A user interface issue involving missing language selection icons.
+
+The discussion helped clarify which language options were intended to be available in the game.
+
+This report demonstrates:
+
+- Identifying inconsistencies in UI functionality.
+- Reporting missing interface elements.
+- Communicating with developers.
+- Clarifying expected functionality through issue discussion.
+
+**Original report:** [ALT Zone Issue #1309](https://github.com/Alt-Org/Altzone/issues/1309)
+
+These reports demonstrate my practical experience in defect identification, documentation, and communication.
+
+Closed issues do not automatically prove that every defect was successfully retested, and I do not claim to have personally verified every fix.
+
 ## Bug Reporting and Investigation
 
 My manual testing experience also includes investigating and reporting software defects.
@@ -144,9 +197,9 @@ This involves:
 - Describing observed and expected behavior.
 - Documenting findings for developers.
 - Communicating about reported issues.
-- Verifying fixes through further testing.
+- Verifying fixes through further testing when applicable.
 
-The repository currently focuses on manual test cases and regression test documentation.
+The original GitHub issues provide examples of how testing findings are communicated within the development project.
 
 ## Skills Demonstrated
 
